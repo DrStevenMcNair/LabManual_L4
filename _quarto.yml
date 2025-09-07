@@ -1,0 +1,35 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Honours Dissertation Lab Book 2025-26"
+  author: "Dr. Steven McNair"
+  date: "08/25/2025"
+  chapters:
+    - index.qmd
+    - S1W1_Welcome.qmd
+    - S1W2_LitRQ.qmd
+    - S1W3_DesignProp.qmd
+    - S1W4_IntSched.qmd
+    - S1W5_EthicsP1.qmd
+    - S1W6_ReadingWeek.qmd
+    - S1W7_EthicsP2.qmd
+    - S1W8_Methods.qmd
+    - S1W9_Intro.qmd
+    - S1W10_DataCollect1.qmd
+    - S1W11_DataCollect2.qmd
+    - S1W1213_ExamPeriod.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - minty
+      - brand 
+
+editor: visual
+
